@@ -1,0 +1,38 @@
+.explorer {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  width: 350px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.item {
+  margin-left: 20px;
+  padding: 5px;
+}
+
+.file-folder {
+  font-weight: bold;
+}
+
+button {
+  margin-left: 5px;
+  padding: 4px 8px;
+  border: none;
+  cursor: pointer;
+  background: #007bff;
+  color: white;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.nested {
+  margin-left: 20px;
+  border-left: 2px solid #ddd;
+  padding-left: 10px;
+}
